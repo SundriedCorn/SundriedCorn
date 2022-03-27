@@ -4319,7 +4319,7 @@ e &lt;- dailyActivity_merged %&gt;% #compare very minuets to calories
   ggplot(aes(VeryActiveMinutes,Calories, color = Calories)) + geom_point() +
   geom_smooth(method=lm , color=&quot;red&quot;, se=FALSE) + theme(legend.position=&quot;none&quot;)
 
-(e + d + c) + plot_annotation(title = &#39;Calories burn compared to active minuets&#39;)</code></pre>
+(e + d + c) + plot_annotation(title = &#39;Calories burn compared to active minutes&#39;)</code></pre>
 <pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;
 ## `geom_smooth()` using formula &#39;y ~ x&#39;
 ## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
